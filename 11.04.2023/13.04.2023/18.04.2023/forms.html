@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    
+    <form action="./prelucrare_form.php" method="Get" style="border: 2px solid black; padding: 20px;">
+
+        <div>
+            <label for="fprenume">Prenume</label>
+    <input type="text" name="fprenume" id="fprenume" value="" placeholder="Prenume" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="fnume">Nume</label>
+            <input type="text" name="fnume" id="fnume" placeholder="Nume" required>
+        
+        </div>
+        <br>
+        <div>
+            <label for="femail">Email</label>
+            <input type="email" name="femail" id="femail" value="" readonly="true" value="">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="Password">Parola</label>
+            <input type="password" name="fpassword" id="fpassword" maxlength="10">
+        </div>
+        <br>
+
+
+        <div>
+            <label for="fvarsta">Varsta</label>
+            <input type="number" name="fvarsta" id="fvarsta" max="100" min="1">
+        </div>
+         <br>
+
+         <div>
+            <label for="fbirthday">Birtday</label>
+            <input type="date" name="fbirthday" id="fbirthday" readonly value="2017-06-01">
+         </div>
+
+         <div>
+            <label for="fmajor">Major</label>
+            <input type="checkbox" name="fmajor" id="fmajor" value="major"checked>
+         </div>
+
+         <div>
+            <p>Stare Civila</p>
+            <label for="">Casatorit</label>
+         <input type="radio" name="fstarecivila" id="fcasatorit" value="casatorit">
+            <label for="">Necasatorit</label>
+         <input type="radio" name="fstarecivila" id="fnecasatorit" value="necasatorit">
+         </div>
+
+         <br>
+
+         <div>
+            <label for="fdescriere"></label>
+            <textarea name="fdescriere" id="fdescriere" cols="30" rows="10">O scurta descriere despre mine</textarea>
+         </div>
+         <br>
+
+
+        
+
+        <div>
+            <label for="fprofesie">Profesii</label>
+            <select name="fprofesie" id="fprofesie">
+                <option disabled value></option>
+                <option value="economist">Economist</option>
+                 <option value="programator">Programator</option>
+                 <option selected value="Baschetbalist">Baschetbalist</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="fpoza">Poza</label>
+            <input type="file" name="poza" id="fpoza">
+
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit">
+        <input type="reset"  value="reset">
+
+        </div>
+        
+
+
+
+
+         <!-- Continuare lectie 20.04.2023 -->
+
+         
+
+            <br>
+         <form action="">
+
+            <fieldset>
+                <legend>Fieldset exemplu</legend>
+                <div>
+                    <label for="fnume">Nume</label>
+                    <input type="text" name="text" id="fnume"  value="" placeholder="">
+
+                </div>
+                <br>
+                <div>
+                    <label for="fprenume">Prenume</label>
+                    <input type="text" name="fPrenume" id="fprenume">
+                
+
+
+                </div>
+
+            </fieldset>
+
+       
+        
+    
+
+    </form>
+
+    <br>
+
+    <div>
+        <button>My button</button>
+    </div>
+
+    
+</body>
+</html>
